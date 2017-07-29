@@ -18,4 +18,9 @@ env: flex
 handlers:
 - url: /.*
   script: this field is required, but ignored
+
+runtime_config:  # Optional
+  jdk: openjdk8
+  server: jetty9
+
 # [END appyaml]
