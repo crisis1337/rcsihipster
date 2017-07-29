@@ -30,4 +30,5 @@
             $state.go('register');
         }
     }
+
 })();

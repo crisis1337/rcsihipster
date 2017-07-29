@@ -6,7 +6,8 @@ services:
         #     - ~/volumes/jhipster/rcsihipster/mysql/:/var/lib/mysql/
         environment:
             - MYSQL_USER=root
-            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+            - MYSQL_PASSWORD=melonside2
+            - MYSQL_ALLOW_EMPTY_PASSWORD=no
             - MYSQL_DATABASE=rcsihipster
         ports:
             - 3306:3306
